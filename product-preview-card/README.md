@@ -41,6 +41,10 @@ but it was not hapenning. After researching and testing, I came up with the same
 as the one mentioned in the first link above: giving the image "display: block;".
 It seems to be a quirky thing with flexbox.
 
+### Acknowledgment
+
+- Arber Muhameti for the great partnership in this learning journey.
+- Frontend Mentor community.
 
 ### Author
 
