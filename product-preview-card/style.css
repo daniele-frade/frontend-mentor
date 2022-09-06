@@ -1,0 +1,168 @@
+/* Style-Guide:
+- Font-size: p (14px)
+- Font-family:  Montserrat (500, 700), Fraunces (700)
+- Layout widths: desktop (1440px), mobile (375px)
+*/
+
+:root {
+    --dark-cyan: #3C8067;
+    --dark-green: #1F4235;
+    --cream: #f2EBE3;
+    --very-dark-blue: #1C232B;
+    --dark-grayish-blue: #6C7289;
+    --white: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+}
+
+html, body {
+    font-size: 10px;
+    background-color: var(--cream);
+}
+
+.perfume {
+    width: 600px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    /* center vertically */
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.img {
+    width: 50%;
+}
+
+.img .img-mobile {
+    display: none;
+}
+
+.img .img-desktop {
+    width: 100%;
+    display: block;
+    border-radius: 5px 0 0 5px;
+}
+
+.description {
+    width: 50%;
+    padding: 32px;
+    border-radius: 0 5px 5px 0;
+    background-color: #FFFFFF;
+}
+
+.description h2 {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 1.4rem;
+    color: var(--dark-grayish-blue);
+    padding-bottom: 16px;
+}
+
+.description h1 {
+    font-family: "Fraunces";
+    font-weight: 700;
+    font-size: 3.3rem;
+    line-height: 3.6rem;
+    color: var(--very-dark-blue);
+    padding-bottom: 20px;
+}
+
+.description p, span {
+    font-family: "Montserrat";
+    font-weight: 500;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    color: var(--dark-grayish-blue);
+    padding-bottom: 20px;
+}
+
+.description .price span:first-child {
+    font-family: "Fraunces";
+    font-weight: 700;
+    font-size: 3.2rem;
+    color: var(--dark-cyan);
+    padding-right: 10px;
+}
+
+.description .price span:last-child {
+    text-decoration: line-through;
+    vertical-align: top;
+}
+
+.description .btn {
+    font-family: "Montserrat";
+    font-weight: 700;
+    font-size: 1.4rem;
+    text-align: center;
+    color: var(--white);
+    background-color: var(--dark-cyan);
+    border: 5px #3C8067;
+    border-radius: 5px;
+    padding: 12px 60px;
+    margin-top: 30px;
+}
+
+.description .btn:hover, .btn:active {
+    background-color: var(--dark-green);
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.description .btn svg {
+    margin-right: 12px;
+    margin-bottom: -3px;
+}
+
+@media(max-width: 375px) {
+    
+    .perfume {
+        display: flex;
+        flex-direction: column;
+        width: 370px;
+        padding: 20px 10px;
+    }
+   
+    .img .img-desktop {
+        display: none;
+    }
+
+    .img {
+        width: 100%;
+    }
+
+    .img .img-mobile {
+        display: block;
+        width: 100%;
+        border-radius: 5px 5px 0 0;
+    }
+
+    .description {
+        width: 100%;
+        border-radius: 0 0 5px 5px;
+        padding: 20px;
+    }
+
+    .description h1 {
+        font-size: 3.2rem;
+        line-height: 3.6rem;
+    }
+
+    .description .btn {
+        width: 100%;
+        padding: 12px 100px;
+        font-size: 1.2rem; 
+    }
+}
+
