@@ -19,8 +19,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Github repository](https://https://github.com/daniele-frade/frontend-mentor/tree/main/product-preview-card)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [GitHub repository](https://https://github.com/daniele-frade/frontend-mentor/tree/main/product-preview-card)
+- Live Site URL: [https://astonishing-tartufo-e6fdee.netlify.app](https://astonishing-tartufo-e6fdee.netlify.app)
 
 
 ### Built with
