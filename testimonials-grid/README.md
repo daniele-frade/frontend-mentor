@@ -1,6 +1,6 @@
 # Testimonials Grid
 
-This is a solution to the [Testimonials Grid Gection challenge from Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7).  
+This is a solution to the [Testimonials Grid Section challenge from Frontend Mentor](https://www.frontendmentor.io/challenges/testimonials-grid-section-Nnw6J7Un7).  
 
 
 ### The challenge
