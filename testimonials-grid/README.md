@@ -11,7 +11,7 @@ This is a solution to the [Testimonials Grid Section challenge from Frontend Men
 ### Links
 
 - Solution URL: [GitHub repository](https://github.com/daniele-frade/frontend-mentor/tree/main/testimonials-grid)
-- Live Site URL: [#](#)
+- Live Site URL: [https://transcendent-stroopwafel-d37e6b.netlify.app](https://transcendent-stroopwafel-d37e6b.netlify.app)
 
 
 ### Screenshot of the solutions
