@@ -16,13 +16,18 @@
 
 html, body {
     font-family: 'Space Grotesk', sans-serif;
-    color: #FFFFFF;
-    background-color: black;
+    color: var(--white);
+    background-color: var(--black);
 }
 
 header, footer {
     display: flex;
     justify-content: space-between;
+}
+
+.container {
+    width: 1110px;
+    margin: 0 auto;
 }
 
 .social-media {
@@ -36,6 +41,11 @@ header, footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 140px;
+}
+
+.underline {
+    text-decoration: underline var(--green);
 }
 
 .hero h1 {
@@ -48,20 +58,30 @@ header, footer {
 .hero p {
     font-size: 18px;
     line-height: 28px;
+    font-weight: 500;
     color: var(--light-gray)
 }
 
 .hero p:last-child {
     font-size: 16px;
     line-height: 26px;
-    color: var(--green);
-    text-decoration: underline;
+    font-weight: 700;
 }
 
 .experience {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px,
+    gap: 30px;
+    margin-bottom: 140px;
+    border-top: 1px solid var(--white);
+}
+
+.experience {
+    margin-top: 72px;
+}
+
+.projects {
+    margin-bottom: 140px;
 }
 
 .projects-item {
@@ -73,5 +93,6 @@ header, footer {
 .contact {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 30px,
+    gap: 30px;
+    margin-bottom: 140px;
 }
