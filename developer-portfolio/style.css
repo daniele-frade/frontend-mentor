@@ -60,5 +60,18 @@ header, footer {
 
 .experience {
     display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px,
+}
 
+.projects-item {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+
+.contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px,
 }
