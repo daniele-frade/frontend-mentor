@@ -26,8 +26,8 @@ header, footer {
 }
 
 .container {
-    width: 1110px;
-    margin: 0 auto;
+    max-width: 1110px;
+    margin: 39px 165px 92px;
 }
 
 .social-media {
