@@ -44,28 +44,38 @@ header, footer {
     margin-bottom: 140px;
 }
 
-.underline {
-    text-decoration: underline var(--green);
-}
-
 .hero h1 {
     font-size: 88px;
     line-height: 88px;
-    letter-spacing: -2.5px;
     font-weight: 700;
+    max-width: 709px;
 }
 
 .hero p {
     font-size: 18px;
     line-height: 28px;
     font-weight: 500;
-    color: var(--light-gray)
+    color: var(--light-gray);
+    max-width: 445px;
+    margin-top: 43px;
 }
 
-.hero p:last-child {
+.hero p:last-child span{
     font-size: 16px;
-    line-height: 26px;
     font-weight: 700;
+    letter-spacing: 2.2px;
+    margin-top: 23px;
+    padding-bottom: 7px;
+}
+
+.hero #name {
+    display: inline-block;
+    border-bottom: 7px solid var(--green);
+}
+
+.hero #contact {
+    display: inline-block;
+    border-bottom: 2px solid var(--green);
 }
 
 .experience {
